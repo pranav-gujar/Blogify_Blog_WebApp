@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Blog</title>
+    <link rel="stylesheet" href="/edit.css">
+</head>
+<body>
+    <h1>Edit your blog...</h1>
+    <p>Blog id: <i><%= blog._id %></i></p>
+    <p>This blog had written by <b><%= blog.author %></b></p>
+
+    <form action="/blogs/<%= blog._id %>?_method=PUT" method="post">
+        <textarea name="blog" id="" rows="8" cols="60"><%= blog.blog %></textarea>
+        <br>
+        <button>Edit</button>
+    </form>
+
+    <footer style="position: fixed;
+      bottom: 0;
+      background: linear-gradient(135deg, #ff1493 0%, #1c86ee 100%);;
+      color: black;
+      text-align: center;
+      width: 100%;
+      font-weight: 500;">
+      Copyright &copy;2024.All rights reserved by Mr Pranav Gujar
+    </footer>
+</body>
+</html>

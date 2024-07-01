@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: url('/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 50px;
+    background: linear-gradient(rgb(237, 253, 15), rgb(63, 252, 33), rgb(17, 240, 244));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background: linear-gradient(135deg, #ff69b4 0%, #1e90ff 100%);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ff1493 0%, #1c86ee 100%); 
+    transform: translateY(-2px);
+}
+
+button:active {
+    background: linear-gradient(135deg, #ff1493 0%, #1c86ee 100%); 
+    transform: translateY(0);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 105, 180, 0.5);
+}
+
+/* Blog Styles */
+.blog {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-msg {
+    background: rgba(240, 240, 240, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.blog p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.main-button {
+    display: flex;
+    gap: 10px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .main-button {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Blog</title>
+    <link rel="stylesheet" href="/new.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Write a new blog...</h1>
+        <form action="/blogs" method="post">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+            
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="author" required>
+            
+            <label for="blog">Blog:</label>
+            <textarea id="blog" name="blog" rows="10" required></textarea>
+            
+            <button type="submit">Create Blog</button>
+        </form>
+    </div>
+
+    <footer style="position: fixed;
+      bottom: 0;
+      background: linear-gradient(135deg, #ff1493 0%, #1c86ee 100%);;
+      color: black;
+      text-align: center;
+      width: 100%;
+      font-weight: 500;">
+      Copyright &copy;2024.All rights reserved by Mr Pranav Gujar
+    </footer>
+</body>
+</html>
