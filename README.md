@@ -1,8 +1,8 @@
-# Blog Website
+# Blogify - Blog WebApp
 
 ## Overview
 
-I am thrilled to announce that I have successfully developed a Blog Website for reading and writing posts using HTML, CSS, Node.js, and MongoDB. This marks the completion of my project as a web development intern at Bharat Intern.
+I am thrilled to announce that I have successfully developed a Blog Website for reading and writing posts using HTML, CSS, Node.js, and MongoDB.
 
 This project has been an incredible learning experience, allowing me to apply my skills in full-stack development and contribute to creating a functional and user-friendly blog platform.
 
@@ -50,7 +50,3 @@ This project has been an incredible learning experience, allowing me to apply my
 1. Open your web browser and navigate to `http://localhost:8080` to access the blog website.
 2. Register a new account or log in with existing credentials.
 3. Create new blog posts, read existing posts.
-
-## Acknowledgements
-
-- Thanks to Bharat Intern for providing the opportunity to work on this project during my web development internship.
