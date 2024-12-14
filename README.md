@@ -26,7 +26,7 @@ This project has been an incredible learning experience, allowing me to apply my
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/pranav-gujar/Blogify_Blog_WebApp
+    git clone https://github.com/pranav-gujar/Blogify_Blog_WebApp.git
     ```
 2. Navigate to the project directory:
     ```bash
