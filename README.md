@@ -26,11 +26,11 @@ This project has been an incredible learning experience, allowing me to apply my
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/pranav-gujar/Task2-Bharat_Intern.git
+    git clone https://github.com/pranav-gujar/Blogify_Blog_WebApp
     ```
 2. Navigate to the project directory:
     ```bash
-    cd BharatIntern_BlogWebsite
+    cd Blogify_Blog_WebApp
     ```
 3. Install the necessary dependencies:
     ```bash
